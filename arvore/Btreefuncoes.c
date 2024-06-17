@@ -12,6 +12,18 @@ buscar pos ordem
 
 //a struct se encontra no arquivo header Btree.h
 
+//mostrando as funções
+
+Arvore *criarNo(int chave);
+Arvore *inserir(Arvore *raiz, int chave);
+Arvore *buscar(Arvore *raiz, int chave);
+Arvore *minimo(Arvore *raiz);
+Arvore *remover(Arvore *raiz, int chave);
+void preOrdem(Arvore *raiz);
+void emOrdem(Arvore *raiz);
+void posOrdem(Arvore *raiz);
+
+
 //função para criar um novo nó
 
 Arvore *criarNo(int chave){

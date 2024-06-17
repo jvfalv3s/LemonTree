@@ -7,7 +7,7 @@
 
 //criando o struct da árvore
 
-typedef struct {
+typedef struct No{
     //definindo a estrutura do nó
     int chave;
     struct No *esq;
